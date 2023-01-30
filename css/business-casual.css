@@ -1,0 +1,294 @@
+/*!
+ * Start Bootstrap - Business Casual v5.0.5 (https://startbootstrap.com/template-overviews/business-casual)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+
+body {
+background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway';
+}
+
+p {
+  line-height: 1.75;
+}
+
+.text-faded {
+  color: black;
+}
+
+.site-heading {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: 'Raleway';
+  color: black;
+}
+
+.site-heading .site-heading-upper {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  color: black;
+}
+
+.site-heading .site-heading-lower {
+  font-size: 5rem;
+  font-weight: 100;
+  line-height: 4rem;
+  color: white;
+}
+
+.page-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.section-heading {
+  text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.bg-faded {
+  background-color: white;
+}
+
+
+#mainNav .navbar-brand {
+  background-color: black;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  background-color:black;
+  font-weight: 800;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+  background-color: black;
+}
+
+.btn-xl {
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.intro {
+  position: relative;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  background-color: blue;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link:hover {
+  background-color: blue;
+}
+
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: black;
+}
+
+.cta .cta-inner:before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+}
+
+.list-hours {
+  font-size: 0.9rem;
+}
+
+.list-hours .list-hours-item {
+  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+  padding-bottom: .25rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.list-hours .list-hours-item.today {
+  font-weight: bold;
+  color: #e6a756;
+}
+
+.address strong {
+  font-size: 1.2rem;
+}
+
+.footer {
+  background-color: white;
+}
+
+.text-primary {
+  color: #e6a756 !important;
+}
+
+.bg-primary {
+  background-color: black;
+}
+
+.btn {
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+  box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+}
+
+.btn-primary {
+  background-color: white;
+  border-color: #e6a756;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: white;
+  border-color: #df902a;
+}
+
+.font-weight-light {
+  font-weight: 100 !important;
+}
+
+/* O TÍTULO E A IMAGEM */
+
+.containerr {
+  display: grid;
+  grid-template-columns: 1fr minmax(100px, 50%) 1fr;
+  width: 120%;
+}
+
+/* IMAGENS INDEX */
+/*
+@media screen and (max-device-width: 600px) {
+}
+}
+*/
+
+@media screen and (max-width: 760px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid red;
+  width: 85%;
+  height: 85%;
+  margin: 35px;
+}
+
+.containerIndex {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+div.gallery:hover {
+  border: 1px solid red;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: black;
+}
+
+.btn {
+  color: white;
+  font-family: 'Arial';
+  text-decoration: none;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.box_img {
+  width: 10% auto;
+  margin: 10% auto;
+  margin-left: 50% auto;
+}
+
+.lbox {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+}
+
+.lbox:target {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(10,10,10,.7);
+  position: fixed;
+}
+
+#ant {
+  left: 100% auto;
+  top: 100% auto;
+}
+
+#prox {
+  right: 100% auto;
+  top: 100% auto;
+}
+
+#fechar{
+  top: 100% auto;
+  right: 100% auto;
+}
+
+.containerIndesxFrente {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.btn-p {
+  color: black;
+}
+
+.btn-p2 {
+  width: 100%;
+  background-color: white;
+}
+
