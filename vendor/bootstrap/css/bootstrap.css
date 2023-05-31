@@ -10991,7 +10991,7 @@ div.desc {
   right: 2%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .box_img img {
     padding: 4px;
     display: flex;
