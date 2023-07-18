@@ -12,6 +12,9 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
+  <!-- Lightbox CSS -->
+  <link rel="stylesheet" href="lightbox2/dist/css/lightbox.min.css" />
+
   <!-- Custom fonts for this template -->
   <link
     href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
@@ -20,6 +23,9 @@
 
   <!-- Custom styles for this template -->
   <link href="css/business-casual.css" rel="stylesheet">
+
+  <!-- O js da lightBox -->
+  <link rel="stylesheet" href="vendor/bootstrap/js/main.js">
 
 </head>
 
@@ -86,14 +92,32 @@
 
           <div class="row">
 
-            <div class="col-lg-4 col-sm-6 mb-4" id="margem">
+            
+            <div class="col-lg-4 col-sm-6" id="margem">
               <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgcivic1">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group1" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Civiv (1).jpeg" data-lightbox="group1">
+                        <img src="img/carros/Civiv (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Civiv (2).jpeg" data-lightbox="group1" id="naoaparecer">
+                        <img src="img/carros/Civiv (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Civiv (3).jpeg" data-lightbox="group1" id="naoaparecer">
+                        <img src="img/carros/Civiv (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Civiv (4).jpeg" data-lightbox="group1" id="naoaparecer">
+                        <img src="img/carros/Civiv (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Civiv (5).jpeg" data-lightbox="group1" id="naoaparecer">
+                        <img src="img/carros/Civiv (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
                   </div>
-                  <img class="img-fluid" src="img/carros/Civiv (1).jpeg" alt="..." />
                 </a>
+
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading" id="info">
                     Honda Civic LXS <br />
@@ -105,14 +129,32 @@
               </div>
             </div>
 
+
             <div class="col-lg-4 col-sm-6" id="margem">
               <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgfit1">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group2" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Fit (1).jpeg" data-lightbox="group2">
+                        <img src="img/carros/Fit (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Fit (2).jpeg" data-lightbox="group2" id="naoaparecer">
+                        <img src="img/carros/Fit (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Fit (3).jpeg" data-lightbox="group2" id="naoaparecer">
+                        <img src="img/carros/Fit (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Fit (4).jpeg" data-lightbox="group2" id="naoaparecer">
+                        <img src="img/carros/Fit (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Fit (5).jpeg" data-lightbox="group2" id="naoaparecer">
+                        <img src="img/carros/Fit (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
                   </div>
-                  <img class="img-fluid" src="img/carros/Fit (1).jpeg">
                 </a>
+
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading" id="info">
                     Honda Fit <br />
@@ -124,215 +166,32 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-sm-6" id="margem">
-              <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgpalio101">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                  </div>
-                  <img class="img-fluid" src="img/carros/Palio (1).jpeg">
-                </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading" id="info">
-                    Palio Economy <br />
-                    Ano: 2010 <br />
-                    Motor: 1.0 <br />
-                    Menos ar-condicionado <br />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0" id="margem">
-              <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgstrada151">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                  </div>
-                  <img class="img-fluid" src="img/carros/Strada 15 (1).jpeg" alt="..." />
-                </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading" id="info">
-                    Strada <br />
-                    Ano: 2015 <br />
-                    Motor: 1.4 <br />
-                    Completa <br />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0" id="margem">
-              <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgstrada131">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                  </div>
-                  <img class="img-fluid" src="img/carros/Strada 13 (1).jpeg" alt="..." />
-                </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading" id="info">
-                    Strada <br />
-                    Ano: 2013 <br />
-                    Motor: 1.4 <br />
-                    Com direção hidráulica <br />
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <div class="col-lg-4 col-sm-6" id="margem">
               <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgstrada191">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group3" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Citroen (1).jpeg" data-lightbox="group3">
+                        <img src="img/carros/Citroen (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Citroen (2).jpeg" data-lightbox="group3" id="naoaparecer">
+                        <img src="img/carros/Citroen (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Citroen (3).jpeg" data-lightbox="group3" id="naoaparecer">
+                        <img src="img/carros/Citroen (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Citroen (4).jpeg" data-lightbox="group3" id="naoaparecer">
+                        <img src="img/carros/Citroen (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Citroen (5).jpeg" data-lightbox="group3" id="naoaparecer">
+                        <img src="img/carros/Citroen (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
                   </div>
-                  <img class="img-fluid" src="img/carros/Strada 19 (1).jpeg">
                 </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading" id="info">
-                    Strada <br />
-                    Ano: 2019 <br />
-                    Motor: 1.4 <br />
-                    Com direção hidráulica e ar-condicionado <br />
-                  </div>
-                </div>
-              </div>
-            </div>
 
-
-
-            <div class="col-lg-4 col-sm-6" id="margem">
-              <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgsaveiro1">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                  </div>
-                  <img class="img-fluid" src="img/carros/Saveiro (1).jpeg">
-                </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading" id="info">
-                    Saveiro <br />
-                    Ano: 2015 <br />
-                    Motor: 1.6 <br />
-                    Menos ar-condicionado <br />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-lg-4 col-sm-6" id="margem">
-              <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgsaveiror1">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                  </div>
-                  <img class="img-fluid" src="img/carros/Saveiro R (1).jpeg">
-                </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading" id="info">
-                    Saveiro Robust <br />
-                    Ano: 2018 <br />
-                    Motor: 1.6 <br />
-                    Menos ar-condicionado <br />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-            <div class="col-lg-4 col-sm-6" id="margem">
-              <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgsaveiro951">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                  </div>
-                  <img class="img-fluid" src="img/carros/Saveiro 95 (1).jpeg">
-                </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading" id="info">
-                    Saveiro <br />
-                    Ano: 1995 <br />
-                    Motor: 1.8 <br />
-                     <br />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-
-            <div class="col-lg-4 col-sm-6" id="margem">
-              <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgonix1">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                  </div>
-                  <img class="img-fluid" src="img/carros/Onix (1).jpeg">
-                </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading" id="info">
-                    Onix <br />
-                    Ano: 2016 <br />
-                    Motor: 1.0 <br />
-                    Completo <br />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6 mb-4" id="margem">
-              <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgonixlt1">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                  </div>
-                  <img class="img-fluid" src="img/carros/Onix LT (1).jpeg" alt="..." />
-                </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading" id="info">
-                    Onix LT <br />
-                    Ano: 2015 <br />
-                    Motor: 1.0 <br />
-                    Completo <br />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-lg-4 col-sm-6" id="margem">
-              <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgonix151">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                  </div>
-                  <img class="img-fluid" src="img/carros/Onix 15 (1).jpeg">
-                </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading" id="info">
-                    Onix LT <br />
-                    Ano: 2015 <br />
-                    Motor: 1.0 <br />
-                    Completo <br />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-lg-4 col-sm-6" id="margem">
-              <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgcitroen1">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                  </div>
-                  <img class="img-fluid" src="img/carros/Citroen (1).jpeg">
-                </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading" id="info">
                     Citroen C4 <br />
@@ -347,12 +206,362 @@
 
             <div class="col-lg-4 col-sm-6" id="margem">
               <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imguno1">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group4" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Strada 15 (1).jpeg" data-lightbox="group4">
+                        <img src="img/carros/Strada 15 (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Strada 15 (2).jpeg" data-lightbox="group4" id="naoaparecer">
+                        <img src="img/carros/Strada 15 (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Strada 15 (3).jpeg" data-lightbox="group4" id="naoaparecer">
+                        <img src="img/carros/Strada 15 (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Strada 15 (4).jpeg" data-lightbox="group4" id="naoaparecer">
+                        <img src="img/carros/Strada 15 (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Strada 15 (5).jpeg" data-lightbox="group4" id="naoaparecer">
+                        <img src="img/carros/Strada 15 (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
                   </div>
-                  <img class="img-fluid" src="img/carros/Uno (1).jpeg">
                 </a>
+
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading" id="info">
+                    Strada <br />
+                    Ano: 2015 <br />
+                    Motor: 1.4 <br />
+                    Completa <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6" id="margem">
+              <div class="portfolio-item">
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group5" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Strada 13 (1).jpeg" data-lightbox="group5">
+                        <img src="img/carros/Strada 13 (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Strada 13 (2).jpeg" data-lightbox="group5" id="naoaparecer">
+                        <img src="img/carros/Strada 13 (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Strada 13 (3).jpeg" data-lightbox="group5" id="naoaparecer">
+                        <img src="img/carros/Strada 13 (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Strada 13 (4).jpeg" data-lightbox="group5" id="naoaparecer">
+                        <img src="img/carros/Strada 13 (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Strada 13 (5).jpeg" data-lightbox="group5" id="naoaparecer">
+                        <img src="img/carros/Strada 13 (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
+                  </div>
+                </a>
+
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading" id="info">
+                    Strada <br />
+                    Ano: 2013 <br />
+                    Motor: 1.4 <br />
+                    Com direção hidráulica <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6" id="margem">
+              <div class="portfolio-item">
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group6" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Strada 19 (1).jpeg" data-lightbox="group6">
+                        <img src="img/carros/Strada 19 (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Strada 19 (2).jpeg" data-lightbox="group6" id="naoaparecer">
+                        <img src="img/carros/Strada 19 (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Strada 19 (3).jpeg" data-lightbox="group6" id="naoaparecer">
+                        <img src="img/carros/Strada 19 (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Strada 19 (4).jpeg" data-lightbox="group6" id="naoaparecer">
+                        <img src="img/carros/Strada 19 (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Strada 19 (5).jpeg" data-lightbox="group6" id="naoaparecer">
+                        <img src="img/carros/Strada 19 (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
+                  </div>
+                </a>
+
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading" id="info">
+                    Strada <br />
+                    Ano: 2019 <br />
+                    Motor: 1.4 <br />
+                    Com direção hidráulica e ar-condicionado <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6" id="margem">
+              <div class="portfolio-item">
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group7" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Saveiro (1).jpeg" data-lightbox="group7">
+                        <img src="img/carros/Saveiro (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Saveiro (2).jpeg" data-lightbox="group7" id="naoaparecer">
+                        <img src="img/carros/Saveiro (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Saveiro (3).jpeg" data-lightbox="group7" id="naoaparecer">
+                        <img src="img/carros/Saveiro (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Saveiro (4).jpeg" data-lightbox="group7" id="naoaparecer">
+                        <img src="img/carros/Saveiro (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Saveiro (5).jpeg" data-lightbox="group7" id="naoaparecer">
+                        <img src="img/carros/Saveiro (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
+                  </div>
+                </a>
+
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading" id="info">
+                    Saveiro <br />
+                    Ano: 2015 <br />
+                    Motor: 1.6 <br />
+                    Menos ar-condicionado <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6" id="margem">
+              <div class="portfolio-item">
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group8" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Saveiro R (1).jpeg" data-lightbox="group8">
+                        <img src="img/carros/Saveiro R (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Saveiro R (2).jpeg" data-lightbox="group8" id="naoaparecer">
+                        <img src="img/carros/Saveiro R (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Saveiro R (3).jpeg" data-lightbox="group8" id="naoaparecer">
+                        <img src="img/carros/Saveiro R (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Saveiro R (4).jpeg" data-lightbox="group8" id="naoaparecer">
+                        <img src="img/carros/Saveiro R (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Saveiro R (5).jpeg" data-lightbox="group8" id="naoaparecer">
+                        <img src="img/carros/Saveiro R (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
+                  </div>
+                </a>
+
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading" id="info">
+                    Saveiro Robust <br />
+                    Ano: 2018 <br />
+                    Motor: 1.6 <br />
+                    Menos ar-condicionado <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6" id="margem">
+              <div class="portfolio-item">
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group9" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Saveiro 95 (1).jpeg" data-lightbox="group9">
+                        <img src="img/carros/Saveiro 95 (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Saveiro 95 (2).jpeg" data-lightbox="group9" id="naoaparecer">
+                        <img src="img/carros/Saveiro 95 (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Saveiro 95 (3).jpeg" data-lightbox="group9" id="naoaparecer">
+                        <img src="img/carros/Saveiro 95 (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Saveiro 95 (4).jpeg" data-lightbox="group9" id="naoaparecer">
+                        <img src="img/carros/Saveiro 95 (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Saveiro 95 (5).jpeg" data-lightbox="group9" id="naoaparecer">
+                        <img src="img/carros/Saveiro 95 (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
+                  </div>
+                </a>
+
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading" id="info">
+                    Saveiro <br />
+                    Ano: 1995 <br />
+                    Motor: 1.8 <br />
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6" id="margem">
+              <div class="portfolio-item">
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group11" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Onix (1).jpeg" data-lightbox="group11">
+                        <img src="img/carros/Onix (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Onix (2).jpeg" data-lightbox="group11" id="naoaparecer">
+                        <img src="img/carros/Onix (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Onix (3).jpeg" data-lightbox="group11" id="naoaparecer">
+                        <img src="img/carros/Onix (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Onix (4).jpeg" data-lightbox="group11" id="naoaparecer">
+                        <img src="img/carros/Onix (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Onix (5).jpeg" data-lightbox="group11" id="naoaparecer">
+                        <img src="img/carros/Onix (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
+                  </div>
+                </a>
+
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading" id="info">
+                    Onix Join <br />
+                    Ano: 2016 <br />
+                    Motor: 1.0 <br />
+                    Completo <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6" id="margem">
+              <div class="portfolio-item">
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group12" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Onix LT (1).jpeg" data-lightbox="group12">
+                        <img src="img/carros/Onix LT (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Onix LT (2).jpeg" data-lightbox="group12" id="naoaparecer">
+                        <img src="img/carros/Onix LT (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Onix LT (3).jpeg" data-lightbox="group12" id="naoaparecer">
+                        <img src="img/carros/Onix LT (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Onix LT (4).jpeg" data-lightbox="group12" id="naoaparecer">
+                        <img src="img/carros/Onix LT (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Onix LT (5).jpeg" data-lightbox="group12" id="naoaparecer">
+                        <img src="img/carros/Onix LT (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
+                  </div>
+                </a>
+
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading" id="info">
+                    Onix LT <br />
+                    Ano: 2015 <br />
+                    Motor: 1.0 <br />
+                    Completo <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6" id="margem">
+              <div class="portfolio-item">
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group13" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Onix 15 (1).jpeg" data-lightbox="group13">
+                        <img src="img/carros/Onix 15 (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Onix 15 (2).jpeg" data-lightbox="group13" id="naoaparecer">
+                        <img src="img/carros/Onix 15 (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Onix 15 (3).jpeg" data-lightbox="group13" id="naoaparecer">
+                        <img src="img/carros/Onix 15 (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Onix 15 (4).jpeg" data-lightbox="group13" id="naoaparecer">
+                        <img src="img/carros/Onix 15 (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Onix 15 (5).jpeg" data-lightbox="group13" id="naoaparecer">
+                        <img src="img/carros/Onix 15 (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
+                  </div>
+                </a>
+
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading" id="info">
+                    Onix LT <br />
+                    Ano: 2015 <br />
+                    Motor: 1.0 <br />
+                    Completo <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6" id="margem">
+              <div class="portfolio-item">
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group14" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Uno (1).jpeg" data-lightbox="group14">
+                        <img src="img/carros/Uno (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Uno (2).jpeg" data-lightbox="group14" id="naoaparecer">
+                        <img src="img/carros/Uno (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Uno (3).jpeg" data-lightbox="group14" id="naoaparecer">
+                        <img src="img/carros/Uno (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Uno (4).jpeg" data-lightbox="group14" id="naoaparecer">
+                        <img src="img/carros/Uno (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Uno (5).jpeg" data-lightbox="group14" id="naoaparecer">
+                        <img src="img/carros/Uno (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
+                  </div>
+                </a>
+
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading" id="info">
                     Uno Economy <br />
@@ -367,12 +576,29 @@
 
             <div class="col-lg-4 col-sm-6" id="margem">
               <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgwek1">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group15" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/wek (1).jpeg" data-lightbox="group15">
+                        <img src="img/carros/wek (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/wek (2).jpeg" data-lightbox="group15" id="naoaparecer">
+                        <img src="img/carros/wek (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/wek (3).jpeg" data-lightbox="group15" id="naoaparecer">
+                        <img src="img/carros/wek (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/wek (4).jpeg" data-lightbox="group15" id="naoaparecer">
+                        <img src="img/carros/wek (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/wek (5).jpeg" data-lightbox="group15" id="naoaparecer">
+                        <img src="img/carros/wek (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
                   </div>
-                  <img class="img-fluid" src="img/carros/wek (1).jpeg">
                 </a>
+
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading" id="info">
                     Palio Weekend <br />
@@ -385,17 +611,31 @@
             </div>
 
 
-            
-
-
             <div class="col-lg-4 col-sm-6" id="margem">
               <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgsiena1">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group16" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Siena (1).jpeg" data-lightbox="group16">
+                        <img src="img/carros/Siena (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Siena (2).jpeg" data-lightbox="group16" id="naoaparecer">
+                        <img src="img/carros/Siena (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Siena (3).jpeg" data-lightbox="group16" id="naoaparecer">
+                        <img src="img/carros/Siena (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Siena (4).jpeg" data-lightbox="group16" id="naoaparecer">
+                        <img src="img/carros/Siena (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Siena (5).jpeg" data-lightbox="group16" id="naoaparecer">
+                        <img src="img/carros/Siena (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
                   </div>
-                  <img class="img-fluid" src="img/carros/Siena (1).jpeg">
                 </a>
+
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading" id="info">
                     Siena ELX <br />
@@ -410,12 +650,29 @@
 
             <div class="col-lg-4 col-sm-6" id="margem">
               <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgfox1">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group17" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Fox 11 (1).jpeg" data-lightbox="group17">
+                        <img src="img/carros/Fox 11 (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Fox 11 (2).jpeg" data-lightbox="group17" id="naoaparecer">
+                        <img src="img/carros/Fox 11 (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Fox 11 (3).jpeg" data-lightbox="group17" id="naoaparecer">
+                        <img src="img/carros/Fox 11 (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Fox 11 (4).jpeg" data-lightbox="group17" id="naoaparecer">
+                        <img src="img/carros/Fox 11 (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Fox 11 (5).jpeg" data-lightbox="group17" id="naoaparecer">
+                        <img src="img/carros/Fox 11 (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
                   </div>
-                  <img class="img-fluid" src="img/carros/Fox 11 (1).jpeg">
                 </a>
+
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading" id="info">
                     Fox <br />
@@ -428,15 +685,31 @@
             </div>
 
 
-
             <div class="col-lg-4 col-sm-6" id="margem">
               <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imggolg61">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group18" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/Gol G6 (1).jpeg" data-lightbox="group18">
+                        <img src="img/carros/Gol G6 (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/Gol G6 (2).jpeg" data-lightbox="group18" id="naoaparecer">
+                        <img src="img/carros/Gol G6 (2).jpeg" alt="Imagem 2">
+                      </a>
+                      <a href="img/carros/Gol G6 (3).jpeg" data-lightbox="group18" id="naoaparecer">
+                        <img src="img/carros/Gol G6 (3).jpeg" alt="Imagem 3">
+                      </a>
+                      <a href="img/carros/Gol G6 (4).jpeg" data-lightbox="group18" id="naoaparecer">
+                        <img src="img/carros/Gol G6 (4).jpeg" alt="Imagem 4">
+                      </a>
+                      <a href="img/carros/Gol G6 (5).jpeg" data-lightbox="group18" id="naoaparecer">
+                        <img src="img/carros/Gol G6 (5).jpeg" alt="Imagem 5">
+                      </a>
+                    </div>
                   </div>
-                  <img class="img-fluid" src="img/carros/Gol G6 (1).jpeg">
                 </a>
+
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading" id="info">
                     Gol G6 <br />
@@ -448,44 +721,61 @@
               </div>
             </div>
 
+
             <div class="col-lg-4 col-sm-6" id="margem">
               <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgxtz1">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group19" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/XTZ Crosser (1).jpeg" data-lightbox="group19">
+                        <img src="img/carros/XTZ Crosser (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/XTZ Crosser (2).jpeg" data-lightbox="group19" id="naoaparecer">
+                        <img src="img/carros/XTZ Crosser (2).jpeg" alt="Imagem 2">
+                      </a>
+                    </div>
                   </div>
-                  <img class="img-fluid" src="img/carros/XTZ Crosser (1).jpeg">
                 </a>
+
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading" id="info">
                     XTZ Crosser <br />
                     Ano: 2015 <br />
-                    Motor: 150 Cilindradas <br />
+                    Motor: 150 cilindradas <br />
                     Partida e freio à disco <br />
                   </div>
                 </div>
               </div>
             </div>
 
+
             <div class="col-lg-4 col-sm-6" id="margem">
               <div class="portfolio-item">
-                <a class="portfolio-link" data-bs-toggle="modal" href="#imgcg1">
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+
+                <a class="portfolio-link" data-bs-toggle="modal">
+                  <div class="group20" id="imagens">
+                    <div class="grid-item">
+                      <a href="img/carros/CG 160 (1).jpeg" data-lightbox="group20">
+                        <img src="img/carros/CG 160 (1).jpeg" alt="Imagem 1">
+                      </a>
+                      <a href="img/carros/CG 160 (2).jpeg" data-lightbox="group20" id="naoaparecer">
+                        <img src="img/carros/CG 160 (2).jpeg" alt="Imagem 2">
+                      </a>
+                    </div>
                   </div>
-                  <img class="img-fluid" src="img/carros/CG 160 (1).jpeg">
                 </a>
+
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading" id="info">
                     CG Start <br />
                     Ano: 2020 <br />
-                    Motor: 160 Cilindradas <br />
+                    Motor: 160 cilindradas <br />
                     Partida <br />
                   </div>
                 </div>
               </div>
             </div>
-            
 
 
           </div>
@@ -494,874 +784,6 @@
     </div>
   </section>
 
-
-  <div class="lbox" id="imgcivic1">
-    <div class="box_img">
-      <a href="#imgcivic5" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Civiv (1).jpeg" width="70%" height="75%">
-      <a href="#imgcivic2" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgcivic2">
-    <div class="box_img">
-      <a href="#imgcivic1" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Civiv (2).jpeg" width="70%" height="75%">
-      <a href="#imgcivic3" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgcivic3">
-    <div class="box_img">
-      <a href="#imgcivic2" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Civiv (3).jpeg" width="70%" height="75%">
-      <a href="#imgcivic4" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgcivic4">
-    <div class="box_img">
-      <a href="#imgcivic3" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Civiv (4).jpeg" width="70%" height="75%">
-      <a href="#imgcivic5" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgcivic5">
-    <div class="box_img">
-      <a href="#imgcivic4" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Civiv (5).jpeg" width="70%" height="75%">
-      <a href="#imgcivic1" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-
-  <div class="lbox" id="imgfit1">
-    <div class="box_img">
-      <a href="#imgfit5" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Fit (1).jpeg" width="70%" height="75%">
-      <a href="#imgfit2" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgfit2">
-    <div class="box_img">
-      <a href="#imgfit1" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Fit (2).jpeg" width="70%" height="75%">
-      <a href="#imgfit3" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgfit3">
-    <div class="box_img">
-      <a href="#imgfit2" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Fit (3).jpeg" width="70%" height="75%">
-      <a href="#imgfit4" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgfit4">
-    <div class="box_img">
-      <a href="#imgfit3" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Fit (4).jpeg" width="70%" height="75%">
-      <a href="#imgfit5" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgfit5">
-    <div class="box_img">
-      <a href="#imgfit4" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Fit (5).jpeg" width="70%" height="75%">
-      <a href="#imgfit1" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-  <div class="lbox" id="imgstrada151">
-    <div class="box_img">
-      <a href="#imgstrada155" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 15 (1).jpeg" width="70%" height="75%">
-      <a href="#imgstrada152" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgstrada152">
-    <div class="box_img">
-      <a href="#imgstrada151" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 15 (2).jpeg" width="70%" height="75%">
-      <a href="#imgstrada153" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgstrada153">
-    <div class="box_img">
-      <a href="#imgstrada152" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 15 (3).jpeg" width="70%" height="75%">
-      <a href="#imgstrada154" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgstrada154">
-    <div class="box_img">
-      <a href="#imgstrada153" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 15 (4).jpeg" width="70%" height="75%">
-      <a href="#imgstrada155" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgstrada155">
-    <div class="box_img">
-      <a href="#imgstrada154" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 15 (5).jpeg" width="70%" height="75%">
-      <a href="#imgstrada151" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-  <div class="lbox" id="imgstrada191">
-    <div class="box_img">
-      <a href="#imgstrada195" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 19 (1).jpeg" width="70%" height="75%">
-      <a href="#imgstrada192" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgstrada192">
-    <div class="box_img">
-      <a href="#imgstrada191" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 19 (2).jpeg" width="70%" height="75%">
-      <a href="#imgstrada193" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgstrada193">
-    <div class="box_img">
-      <a href="#imgstrada192" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 19 (3).jpeg" width="70%" height="75%">
-      <a href="#imgstrada194" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgstrada194">
-    <div class="box_img">
-      <a href="#imgstrada193" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 19 (4).jpeg" width="70%" height="75%">
-      <a href="#imgstrada195" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgstrada195">
-    <div class="box_img">
-      <a href="#imgstrada194" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 19 (5).jpeg" width="70%" height="75%">
-      <a href="#imgstrada191" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-  <div class="lbox" id="imgstrada131">
-    <div class="box_img">
-      <a href="#imgstrada135" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 13 (1).jpeg" width="70%" height="75%">
-      <a href="#imgstrada132" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgstrada132">
-    <div class="box_img">
-      <a href="#imgstrada131" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 13 (2).jpeg" width="70%" height="75%">
-      <a href="#imgstrada133" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgstrada133">
-    <div class="box_img">
-      <a href="#imgstrada132" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 13 (3).jpeg" width="70%" height="75%">
-      <a href="#imgstrada134" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgstrada134">
-    <div class="box_img">
-      <a href="#imgstrada133" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 13 (4).jpeg" width="70%" height="75%">
-      <a href="#imgstrada135" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgstrada135">
-    <div class="box_img">
-      <a href="#imgstrada134" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Strada 13 (5).jpeg" width="70%" height="75%">
-      <a href="#imgstrada131" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-
-  <div class="lbox" id="imgsaveiro1">
-    <div class="box_img">
-      <a href="#imgsaveiro5" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro (1).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiro2" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsaveiro2">
-    <div class="box_img">
-      <a href="#imgsaveiro1" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro (2).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiro3" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsaveiro3">
-    <div class="box_img">
-      <a href="#imgsaveiro2" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro (3).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiro4" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsaveiro4">
-    <div class="box_img">
-      <a href="#imgsaveiro3" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro (4).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiro5" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsaveiro5">
-    <div class="box_img">
-      <a href="#imgsaveiro4" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro (5).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiro1" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-
-  <div class="lbox" id="imgsaveiror1">
-    <div class="box_img">
-      <a href="#imgsaveiror5" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro R (1).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiror2" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsaveiror2">
-    <div class="box_img">
-      <a href="#imgsaveiror1" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro R (2).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiror3" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsaveiror3">
-    <div class="box_img">
-      <a href="#imgsaveiror2" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro R (3).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiror4" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsaveiror4">
-    <div class="box_img">
-      <a href="#imgsaveiror3" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro R (4).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiror5" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsaveiror5">
-    <div class="box_img">
-      <a href="#imgsaveiror4" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro R (5).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiror1" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-  <div class="lbox" id="imgsaveiro951">
-    <div class="box_img">
-      <a href="#imgsaveiro955" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro 95 (1).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiro952" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsaveiro952">
-    <div class="box_img">
-      <a href="#imgsaveiro951" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro 95 (2).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiro953" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsaveiro953">
-    <div class="box_img">
-      <a href="#imgsaveiro952" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro 95 (3).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiro954" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsaveiro954">
-    <div class="box_img">
-      <a href="#imgsaveiro953" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro 95 (4).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiro955" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsaveiro955">
-    <div class="box_img">
-      <a href="#imgsaveiro954" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Saveiro 95 (5).jpeg" width="70%" height="75%">
-      <a href="#imgsaveiro951" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-
-  <div class="lbox" id="imgonixlt1">
-    <div class="box_img">
-      <a href="#imgonixlt5" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix LT (1).jpeg" width="70%" height="75%">
-      <a href="#imgonixlt2" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgonixlt2">
-    <div class="box_img">
-      <a href="#imgonixlt1" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix LT (2).jpeg" width="70%" height="75%">
-      <a href="#imgonixlt3" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgonixlt3">
-    <div class="box_img">
-      <a href="#imgonixlt2" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix LT (3).jpeg" width="70%" height="75%">
-      <a href="#imgonixlt4" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgonixlt4">
-    <div class="box_img">
-      <a href="#imgonixlt3" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix LT (4).jpeg" width="70%" height="75%">
-      <a href="#imgonixlt5" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgonixlt5">
-    <div class="box_img">
-      <a href="#imgonixlt4" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix LT (5).jpeg" width="70%" height="75%">
-      <a href="#imgonixlt1" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-  <div class="lbox" id="imgonix1">
-    <div class="box_img">
-      <a href="#imgonix5" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix (1).jpeg" width="70%" height="75%">
-      <a href="#imgonix2" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgonix2">
-    <div class="box_img">
-      <a href="#imgonix1" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix (2).jpeg" width="70%" height="75%">
-      <a href="#imgonix3" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgonix3">
-    <div class="box_img">
-      <a href="#imgonix2" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix (3).jpeg" width="70%" height="75%">
-      <a href="#imgonix4" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgonix4">
-    <div class="box_img">
-      <a href="#imgonix3" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix (4).jpeg" width="70%" height="75%">
-      <a href="#imgonix5" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgonix5">
-    <div class="box_img">
-      <a href="#imgonix4" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix (5).jpeg" width="70%" height="75%">
-      <a href="#imgonix1" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-  <div class="lbox" id="imgonix151">
-    <div class="box_img">
-      <a href="#imgonix155" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix 15 (1).jpeg" width="70%" height="75%">
-      <a href="#imgonix152" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgonix152">
-    <div class="box_img">
-      <a href="#imgonix151" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix 15 (2).jpeg" width="70%" height="75%">
-      <a href="#imgonix153" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgonix153">
-    <div class="box_img">
-      <a href="#imgonix152" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix 15 (3).jpeg" width="70%" height="75%">
-      <a href="#imgonix154" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgonix154">
-    <div class="box_img">
-      <a href="#imgonix153" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix 15 (4).jpeg" width="70%" height="75%">
-      <a href="#imgonix155" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgonix155">
-    <div class="box_img">
-      <a href="#imgonix154" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Onix 15 (5).jpeg" width="70%" height="75%">
-      <a href="#imgonix151" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-  <div class="lbox" id="imgcitroen1">
-    <div class="box_img">
-      <a href="#imgcitroen5" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Citroen (1).jpeg" width="70%" height="75%">
-      <a href="#imgcitroen2" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgcitroen2">
-    <div class="box_img">
-      <a href="#imgcitroen1" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Citroen (2).jpeg" width="70%" height="75%">
-      <a href="#imgcitroen3" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgcitroen3">
-    <div class="box_img">
-      <a href="#imgcitroen2" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Citroen (3).jpeg" width="70%" height="75%">
-      <a href="#imgcitroen4" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgcitroen4">
-    <div class="box_img">
-      <a href="#imgcitroen3" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Citroen (4).jpeg" width="70%" height="75%">
-      <a href="#imgcitroen5" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgcitroen5">
-    <div class="box_img">
-      <a href="#imgcitroen4" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Citroen (5).jpeg" width="70%" height="75%">
-      <a href="#imgcitroen1" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-
-  <div class="lbox" id="imguno1">
-    <div class="box_img">
-      <a href="#imguno5" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Uno (1).jpeg" width="70%" height="75%">
-      <a href="#imguno2" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imguno2">
-    <div class="box_img">
-      <a href="#imguno1" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Uno (2).jpeg" width="70%" height="75%">
-      <a href="#imguno3" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imguno3">
-    <div class="box_img">
-      <a href="#imguno2" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Uno (3).jpeg" width="70%" height="75%">
-      <a href="#imguno4" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imguno4">
-    <div class="box_img">
-      <a href="#imguno3" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Uno (4).jpeg" width="70%" height="75%">
-      <a href="#imguno5" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imguno5">
-    <div class="box_img">
-      <a href="#imguno4" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Uno (5).jpeg" width="70%" height="75%">
-      <a href="#imguno1" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-
-  <div class="lbox" id="imgwek1">
-    <div class="box_img">
-      <a href="#imgwek5" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/wek (1).jpeg" width="70%" height="75%">
-      <a href="#imgwek2" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgwek2">
-    <div class="box_img">
-      <a href="#imgwek1" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/wek (2).jpeg" width="70%" height="75%">
-      <a href="#imgwek3" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgwek3">
-    <div class="box_img">
-      <a href="#imgwek2" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/wek (3).jpeg" width="70%" height="75%">
-      <a href="#imgwek4" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgwek4">
-    <div class="box_img">
-      <a href="#imgwek3" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/wek (4).jpeg" width="70%" height="75%">
-      <a href="#imgwek5" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgwek5">
-    <div class="box_img">
-      <a href="#imgwek4" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/wek (5).jpeg" width="70%" height="75%">
-      <a href="#imgwek1" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-  <div class="lbox" id="imgsiena1">
-    <div class="box_img">
-      <a href="#imgsiena5" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Siena (1).jpeg" width="70%" height="75%">
-      <a href="#imgsiena2" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsiena2">
-    <div class="box_img">
-      <a href="#imgsiena1" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Siena (2).jpeg" width="70%" height="75%">
-      <a href="#imgsiena3" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsiena3">
-    <div class="box_img">
-      <a href="#imgsiena2" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Siena (3).jpeg" width="70%" height="75%">
-      <a href="#imgsiena4" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsiena4">
-    <div class="box_img">
-      <a href="#imgsiena3" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Siena (4).jpeg" width="70%" height="75%">
-      <a href="#imgsiena5" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgsiena5">
-    <div class="box_img">
-      <a href="#imgsiena4" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Siena (5).jpeg" width="70%" height="75%">
-      <a href="#imgsiena1" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-  <div class="lbox" id="imgpalio101">
-    <div class="box_img">
-      <a href="#imgpalio105" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Palio (1).jpeg" width="70%" height="75%">
-      <a href="#imgpalio102" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgpalio102">
-    <div class="box_img">
-      <a href="#imgpalio101" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Palio (2).jpeg" width="70%" height="75%">
-      <a href="#imgpalio103" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgpalio103">
-    <div class="box_img">
-      <a href="#imgpalio102" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Palio (3).jpeg" width="70%" height="75%">
-      <a href="#imgpalio104" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgpalio104">
-    <div class="box_img">
-      <a href="#imgpalio103" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Palio (4).jpeg" width="70%" height="75%">
-      <a href="#imgpalio105" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgpalio105">
-    <div class="box_img">
-      <a href="#imgpalio104" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Palio (5).jpeg" width="70%" height="75%">
-      <a href="#imgpalio101" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgfox1">
-    <div class="box_img">
-      <a href="#imgfox5" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Fox 11 (1).jpeg" width="70%" height="75%">
-      <a href="#imgfox2" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgfox2">
-    <div class="box_img">
-      <a href="#imgfox1" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Fox 11 (2).jpeg" width="70%" height="75%">
-      <a href="#imgfox3" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgfox3">
-    <div class="box_img">
-      <a href="#imgfox2" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Fox 11 (3).jpeg" width="70%" height="75%">
-      <a href="#imgfox4" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgfox4">
-    <div class="box_img">
-      <a href="#imgfox3" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Fox 11 (4).jpeg" width="70%" height="75%">
-      <a href="#imgfox5" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgfox5">
-    <div class="box_img">
-      <a href="#imgfox4" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Fox 11 (5).jpeg" width="70%" height="75%">
-      <a href="#imgfox1" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imggolg61">
-    <div class="box_img">
-      <a href="#imggolg65" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Gol G6 (1).jpeg" width="70%" height="75%">
-      <a href="#imggolg62" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imggolg62">
-    <div class="box_img">
-      <a href="#imggolg61" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Gol G6 (2).jpeg" width="70%" height="75%">
-      <a href="#imggolg63" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imggolg63">
-    <div class="box_img">
-      <a href="#imggolg62" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Gol G6 (3).jpeg" width="70%" height="75%">
-      <a href="#imggolg64" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imggolg64">
-    <div class="box_img">
-      <a href="#imggolg63" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Gol G6 (4).jpeg" width="70%" height="75%">
-      <a href="#imggolg65" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imggolg65">
-    <div class="box_img">
-      <a href="#imggolg64" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/Gol G6 (5).jpeg" width="70%" height="75%">
-      <a href="#imggolg61" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-
-  <div class="lbox" id="imgxtz1">
-    <div class="box_img">
-      <a href="#imgxtz2" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/XTZ Crosser (1).jpeg" width="70%" height="75%">
-      <a href="#imgxtz2" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgxtz2">
-    <div class="box_img">
-      <a href="#imgxtz1" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/XTZ Crosser (2).jpeg" width="70%" height="75%">
-      <a href="#imgxtz1" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgcg1">
-    <div class="box_img">
-      <a href="#imgcg2" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/CG 160 (1).jpeg" width="70%" height="75%">
-      <a href="#imgcg2" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
-
-  <div class="lbox" id="imgcg2">
-    <div class="box_img">
-      <a href="#imgcg1" class="btn" id="ant">&#171;</a>
-      <a href="" class="btn" id="fechar">X</a>
-      <img src="img/carros/CG 160 (2).jpeg" width="70%" height="75%">
-      <a href="#imgcg1" class="btn" id="prox">&#187;</a>
-    </div>
-  </div>
 
 
 
@@ -1431,8 +853,9 @@
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Lightbox JS -->
+  <script src="lightbox2/dist/js/lightbox.min.js"></script>
 </body>
 
 </html>
