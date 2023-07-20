@@ -10874,6 +10874,16 @@ div.desc {
     font-family: Arial, Helvetica, sans-serif;
     color: red;
   }
+
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+
+  #contato {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media (max-width: 358px) {
@@ -10888,6 +10898,16 @@ div.desc {
     font-family: Arial, Helvetica, sans-serif;
     color: red;
   }
+
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+
+  #contato {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 #info {
@@ -10898,7 +10918,6 @@ div.desc {
 body {
   overflow-x: hidden;
 }
-
 
 * {
   margin: 0;
