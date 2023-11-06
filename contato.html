@@ -80,19 +80,18 @@
                         <span>Fale conosco</span>
                     </h2>
 
-                    <form method="get" action="mailto:thales_bichego@outlook.com" id="contato">
-                        <label>Nome:</label>
-                        <input type="text" name="name" placeholder="Digite seu nome aqui" required id="contato"></br></br>
-
-                        <label>Email:</label>
-                        <input type="email" name="email" placeholder="Digite seu e-mail aqui" required id="contato"></br></br>
-
-                        <label>Mensagem:</label>
-                        <textarea name="mensagem" placeholder="Digite sua mensagem aqui" rows="4" cols="50" required id="contato"></textarea></br></br>
-
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Limpar"></br></br>
-
+                    <form method="post" action="enviar.php" id="contato">
+                        <label for="nome" id="espaco">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui" required>
+                        
+                        <label for="email" id="espaco">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email aqui" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Digite um endereço de email válido">
+                        
+                        <label for="mensagem" id="espaco">Mensagem:</label>
+                        <textarea name="mensagem" placeholder="Digite sua mensagem aqui" rows="4" cols="50" required maxlength="500"></textarea>
+                        
+                        <input type="submit" value="Enviar" id="espacobtn">
+                        <input type="reset" value="Limpar" id="espacobtn">
                     </form>
 
 
