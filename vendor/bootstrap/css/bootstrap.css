@@ -10862,6 +10862,28 @@ div.desc {
   color: red;
 }
 
+#contato {
+  display: grid;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 5%;
+}
+
+#espaco {
+  margin-top: 5%;
+}
+
+#espacobtn {
+  display: grid;
+  width: 25%;
+  margin-left: 38%;
+  margin-top: 5%;
+}
+
+#espacobtn:hover {
+  background-color: lightgreen;
+}
+
 @media (max-width: 768px) {
   #item {
     width: 250px;
@@ -10881,8 +10903,25 @@ div.desc {
   }
 
   #contato {
-    width: 100%;
-    height: 100%;
+    display: grid;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+  }
+  
+  #espaco {
+    margin-top: 5%;
+  }
+  
+  #espacobtn {
+    display: grid;
+    width: 25%;
+    margin-left: 38%;
+    margin-top: 5%;
+  }
+  
+  #espacobtn:hover {
+    background-color: lightgreen;
   }
 }
 
@@ -10905,8 +10944,25 @@ div.desc {
   }
 
   #contato {
-    width: 100%;
-    height: 100%;
+    display: grid;
+    width: 50%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  
+  #espaco {
+    margin-top: 5%;
+  }
+  
+  #espacobtn {
+    display: grid;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  
+  #espacobtn:hover {
+    background-color: lightgreen;
   }
 }
 
@@ -10988,3 +11044,4 @@ body {
     grid-row: unset;
   }
 }
+
