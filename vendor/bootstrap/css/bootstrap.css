@@ -10862,29 +10862,41 @@ div.desc {
   color: red;
 }
 
-#contato {
-  display: grid;
-  width: 50%;
-  margin-left: 25%;
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 100px);
+  max-width: 100%;
+	margin: 0 auto;
+	border: 1px solid red;
   margin-bottom: 5%;
 }
 
-#espaco {
-  margin-top: 5%;
+.center {
+	align-items: center;
 }
 
-#espacobtn {
-  display: grid;
-  width: 25%;
-  margin-left: 38%;
-  margin-top: 5%;
+.item {
+	margin: 5px;
+	text-align: center;
+	font-size: 150%;
 }
 
-#espacobtn:hover {
-  background-color: lightgreen;
+#cima {
+  font-size: 150%;
+}
+
+#cima:hover {
+  background-color: red;
+}
+
+.grid h4 {
+  color: black;
 }
 
 @media (max-width: 768px) {
+
   #item {
     width: 250px;
     margin-left: auto;
@@ -10902,30 +10914,42 @@ div.desc {
     height: 100%;
   }
 
-  #contato {
+  .grid {
     display: grid;
-    width: 50%;
-    margin-left: 25%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    max-width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
     margin-bottom: 5%;
   }
   
-  #espaco {
-    margin-top: 5%;
+  .center {
+    align-items: center;
   }
   
-  #espacobtn {
-    display: grid;
-    width: 25%;
-    margin-left: 38%;
-    margin-top: 5%;
+  .item {
+    margin: 5px;
+    text-align: center;
+    font-size: 150%;
   }
   
-  #espacobtn:hover {
-    background-color: lightgreen;
+  .grid h4 {
+    color: black;
   }
+  
+  #cima:hover {
+    background-color: red;
+  }
+
+  #cima {
+    font-size: 100%;
+  }
+
 }
 
 @media (max-width: 358px) {
+
   #item {
     width: 150px;
     margin-left: auto;
@@ -10943,36 +10967,43 @@ div.desc {
     height: 100%;
   }
 
-  #contato {
+  .grid {
     display: grid;
-    width: 50%;
-    margin-left: -14%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    max-width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
     margin-bottom: 5%;
   }
   
-  #espaco {
-    margin-top: 5%;
+  .center {
+    align-items: center;
   }
   
-  #espacobtn {
-    display: grid;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 5%;
+  .item {
+    margin: 5px;
+    text-align: center;
+    font-size: 150%;
   }
   
-  #espacobtn:hover {
-    background-color: lightgreen;
+  .grid h4 {
+    color: black;
   }
+  
+  #cima:hover {
+    background-color: red;
+  }
+
+  #cima {
+    font-size: 60%;
+  }
+
 }
 
 #info {
   font-family: "Arial";
   font-size: 150%;
-}
-
-body {
-  overflow-x: hidden;
 }
 
 * {
@@ -10984,28 +11015,11 @@ body {
 body {
   margin: 0;
   padding: 0;
-}
-
-#imagens {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 50px 20px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-auto-rows: 250px;
-  grid-auto-flow: dense;
-  grid-gap: 20px;
-  display: contents;
-  align-items: flex-start;
+  overflow-x: hidden;
 }
 
 #naoaparecer {
   display: none;
-}
-
-#imagens .grid-item {
-  position: relative;
-  background-color: #efefef;
 }
 
 .grid-item {
