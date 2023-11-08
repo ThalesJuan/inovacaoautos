@@ -80,19 +80,17 @@
                         <span>Fale conosco</span>
                     </h2>
 
-                    <form method="post" action="enviar.php" id="contato">
-                        <label for="nome" id="espaco">Nome:</label>
-                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui" required>
+                    <div>
                         
-                        <label for="email" id="espaco">Email:</label>
-                        <input type="email" name="email" id="email" placeholder="Digite seu email aqui" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Digite um endereço de email válido">
-                        
-                        <label for="mensagem" id="espaco">Mensagem:</label>
-                        <textarea name="mensagem" placeholder="Digite sua mensagem aqui" rows="4" cols="50" required maxlength="500"></textarea>
-                        
-                        <input type="submit" value="Enviar" id="espacobtn">
-                        <input type="reset" value="Limpar" id="espacobtn">
-                    </form>
+                        <section class="grid center">
+                            <h4 id="cima">Pelo Facebook</h4>
+                            <h4 id="cima">Pelo instagram</h4>
+                            <h4 id="cima">Pelo WhatsApp</h4>
+                            <div class="item" id="cima"><a href="https://www.facebook.com/messages/t/inovacaoautos" target="_blank">>>> Facebook</a></div>
+                            <div class="item" id="cima"><a href="https://www.instagram.com/direct/t/inovacaoautos" target="_blank">>>> Instagram</a></div>
+                            <div class="item" id="cima"><a href="https://web.whatsapp.com/send?phone=551938134961" target="_blank">>>> WhatsApp</a></div>
+                        </section>
+                    </div>
 
 
                     <h2>WhatsApp:</h2>
@@ -170,6 +168,8 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
 
 </body>
 
