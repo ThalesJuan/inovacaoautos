@@ -10884,11 +10884,16 @@ div.desc {
 }
 
 #cima {
-  font-size: 150%;
+  font-size: 100%;
+  margin-bottom: 10%;
 }
 
 #cimah:hover {
   background-color: red;
+}
+
+#espacocima {
+  margin-top: 3%;
 }
 
 .grid h4 {
