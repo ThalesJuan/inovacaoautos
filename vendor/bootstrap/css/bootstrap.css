@@ -10943,12 +10943,21 @@ div.desc {
     color: black;
   }
   
+  #cima {
+    font-size: 100%;
+    margin-bottom: 10%;
+  }
+  
   #cimah:hover {
     background-color: red;
   }
+  
+  #espacocima {
+    margin-top: 3%;
+  }
 
-  #cima {
-    font-size: 100%;
+  #margem {
+    margin-bottom: 10%;
   }
 
 }
@@ -10996,12 +11005,21 @@ div.desc {
     color: black;
   }
   
+  #cima {
+    font-size: 120%;
+    margin-bottom: 10%;
+  }
+  
   #cimah:hover {
     background-color: red;
   }
+  
+  #espacocima {
+    margin-top: 3%;
+  }
 
-  #cima {
-    font-size: 60%;
+  #margem {
+    margin-bottom: 20%;
   }
 
 }
