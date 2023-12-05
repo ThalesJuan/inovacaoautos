@@ -95,13 +95,13 @@
           <div class="row">
 
 
-            <div class="col-lg-4 col-sm-6" id="margem">
+            <div class="col-lg-4 col-sm-6" id="margem" onclick="toggleScrollLock()">
               <div class="portfolio-item">
 
                 <a class="portfolio-link" data-bs-toggle="modal">
                   <div class="imgcruzelt" id="imagens">
                     <div class="grid-item">
-                      <a href="img/carros/Cruze LT  (1).jpeg" data-lightbox="imgcruzelt">
+                      <a href="img/carros/Cruze LT  (1).jpeg" data-lightbox="imgcruzelt" onclick="toggleScrollLock(event)">
                         <img src="img/carros/Cruze LT  (1).jpeg" alt="Imagem 1">
                       </a>
                       <a href="img/carros/Cruze LT  (2).jpeg" data-lightbox="imgcruzelt" id="naoaparecer">
@@ -396,43 +396,6 @@
               </div>
             </div>
 
-
-
-            <div class="col-lg-4 col-sm-6" id="margem">
-              <div class="portfolio-item">
-
-                <a class="portfolio-link" data-bs-toggle="modal">
-                  <div class="imgcelta" id="imagens">
-                    <div class="grid-item">
-                      <a href="img/carros/Celta (1).jpeg" data-lightbox="imgcelta">
-                        <img src="img/carros/Celta (1).jpeg" alt="Imagem 1">
-                      </a>
-                      <a href="img/carros/Celta (2).jpeg" data-lightbox="imgcelta" id="naoaparecer">
-                        <img src="img/carros/Celta (2).jpeg" alt="Imagem 2">
-                      </a>
-                      <a href="img/carros/Celta (3).jpeg" data-lightbox="imgcelta" id="naoaparecer">
-                        <img src="img/carros/Celta (3).jpeg" alt="Imagem 3">
-                      </a>
-                      <a href="img/carros/Celta (4).jpeg" data-lightbox="imgcelta" id="naoaparecer">
-                        <img src="img/carros/Celta (4).jpeg" alt="Imagem 4">
-                      </a>
-                      <a href="img/carros/Celta (5).jpeg" data-lightbox="imgcelta" id="naoaparecer">
-                        <img src="img/carros/Celta (5).jpeg" alt="Imagem 5">
-                      </a>
-                    </div>
-                  </div>
-                </a>
-
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading" id="info">
-                    Celta Life <br />
-                    Ano: 2008 <br />
-                    Motor: 1.0 <br />
-                    Completo <br />
-                  </div>
-                </div>
-              </div>
-            </div>
 
 
             <div class="col-lg-4 col-sm-6" id="margem">
@@ -778,6 +741,9 @@
 
   <!-- Lightbox JS -->
   <script src="lightbox2/dist/js/lightbox.min.js"></script>
+
+  <script src="vendor/bootstrap/js/bootstrap.js"></script>
+
 </body>
 
 </html>
