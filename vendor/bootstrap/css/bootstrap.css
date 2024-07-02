@@ -10991,11 +10991,6 @@ div.desc {
     height: 100%;
   }
 
-  #mapIndex {
-    width: 100%;
-    height: 100%;
-  }
-
   .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
