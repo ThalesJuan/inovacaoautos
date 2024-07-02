@@ -5888,8 +5888,7 @@ a.close.disabled {
 }
 
 .modal-open .modal {
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 .modal {
@@ -5909,6 +5908,7 @@ a.close.disabled {
   width: auto;
   margin: 0.5rem;
   pointer-events: none;
+  overflow: hidden;
 }
 
 .modal.fade .modal-dialog {
@@ -5934,6 +5934,7 @@ a.close.disabled {
   display: -ms-flexbox;
   display: flex;
   max-height: calc(100% - 1rem);
+  overflow: hidden;
 }
 
 .modal-dialog-scrollable .modal-content {
@@ -5945,10 +5946,11 @@ a.close.disabled {
 .modal-dialog-scrollable .modal-footer {
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  overflow: hidden;
 }
 
 .modal-dialog-scrollable .modal-body {
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 .modal-dialog-centered {
@@ -5975,10 +5977,12 @@ a.close.disabled {
 
 .modal-dialog-centered.modal-dialog-scrollable .modal-content {
   max-height: none;
+  overflow: hidden;
 }
 
 .modal-dialog-centered.modal-dialog-scrollable::before {
   content: none;
+  overflow: hidden;
 }
 
 .modal-content {
@@ -5994,6 +5998,7 @@ a.close.disabled {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
   outline: 0;
+  overflow: hidden;
 }
 
 .modal-backdrop {
@@ -6070,8 +6075,13 @@ a.close.disabled {
   top: -9999px;
   width: 50px;
   height: 50px;
-  overflow: scroll;
+  overflow: hidden;
 }
+
+
+
+
+
 
 @media (min-width: 576px) {
   .modal-dialog {
@@ -10981,6 +10991,11 @@ div.desc {
     height: 100%;
   }
 
+  #mapIndex {
+    width: 100%;
+    height: 100%;
+  }
+
   .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -11082,3 +11097,10 @@ body {
   }
 }
 
+#item {
+  margin: 2%;
+}
+
+#mapIndex {
+  margin: 2%;
+}
