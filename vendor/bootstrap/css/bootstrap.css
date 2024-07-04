@@ -11093,9 +11093,11 @@ body {
 }
 
 #item {
-  margin: 2%;
+  margin-top: 2%;
+  margin-right: 5%;
 }
 
 #mapIndex {
-  margin: 2%;
+  margin: 5%;
 }
+
