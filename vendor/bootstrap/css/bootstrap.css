@@ -126,10 +126,6 @@ dd {
   margin-left: 0;
 }
 
-blockquote {
-  margin: 0 0 1rem;
-}
-
 b,
 strong {
   font-weight: bolder;
@@ -476,20 +472,6 @@ mark,
   text-transform: uppercase;
 }
 
-.blockquote {
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
-}
-
-.blockquote-footer {
-  display: block;
-  font-size: 80%;
-  color: #6c757d;
-}
-
-.blockquote-footer::before {
-  content: "\2014\00A0";
-}
 
 .img-fluid {
   max-width: 100%;
@@ -4928,40 +4910,7 @@ input[type="button"].btn-block {
   color: #fff;
 }
 
-.breadcrumb {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 0.75rem 1rem;
-  margin-bottom: 1rem;
-  list-style: none;
-  background-color: #e9ecef;
-  border-radius: 0.25rem;
-}
 
-.breadcrumb-item+.breadcrumb-item {
-  padding-left: 0.5rem;
-}
-
-.breadcrumb-item+.breadcrumb-item::before {
-  display: inline-block;
-  padding-right: 0.5rem;
-  color: #6c757d;
-  content: "/";
-}
-
-.breadcrumb-item+.breadcrumb-item:hover::before {
-  text-decoration: underline;
-}
-
-.breadcrumb-item+.breadcrumb-item:hover::before {
-  text-decoration: none;
-}
-
-.breadcrumb-item.active {
-  color: #6c757d;
-}
 
 .pagination {
   display: -ms-flexbox;
@@ -10746,8 +10695,7 @@ a.text-dark:focus {
     white-space: pre-wrap !important;
   }
 
-  pre,
-  blockquote {
+  pre {
     border: 1px solid #adb5bd;
     page-break-inside: avoid;
   }
@@ -10857,7 +10805,7 @@ div.desc {
 }
 
 #margem:hover {
-  border: 1px solid #777;
+  border: 1px solid blue;
 }
 
 #item {
@@ -10869,7 +10817,7 @@ div.desc {
   margin: auto;
   font-size: 250%;
   font-family: Arial, Helvetica, sans-serif;
-  color: red;
+  color: blue;
 }
 
 
@@ -10899,7 +10847,7 @@ div.desc {
 }
 
 #cimah:hover {
-  background-color: red;
+  background-color: blue;
 }
 
 #espacocima {
@@ -10921,7 +10869,7 @@ div.desc {
     margin: auto;
     font-size: 200%;
     font-family: Arial, Helvetica, sans-serif;
-    color: red;
+    color: blue;
   }
 
   #map {
@@ -10959,7 +10907,7 @@ div.desc {
   }
   
   #cimah:hover {
-    background-color: red;
+    background-color: blue;
   }
   
   #espacocima {
@@ -10983,7 +10931,7 @@ div.desc {
     margin: auto;
     font-size: 200%;
     font-family: Arial, Helvetica, sans-serif;
-    color: red;
+    color: blue;
   }
 
   #map {
@@ -11021,7 +10969,7 @@ div.desc {
   }
   
   #cimah:hover {
-    background-color: red;
+    background-color: blue;
   }
   
   #espacocima {
@@ -11099,5 +11047,19 @@ body {
 
 #mapIndex {
   margin: 5%;
+}
+
+#lupa {
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  display: none;
+  pointer-events: none;
+  box-shadow: 0 0 10px rgba(255,255,255,0.5);
+  z-index: 9999;
 }
 
